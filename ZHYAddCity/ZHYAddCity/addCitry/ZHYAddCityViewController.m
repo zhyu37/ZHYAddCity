@@ -62,11 +62,20 @@
 
 - (void)setupUI
 {
+    UIBarButtonItem *leftBtn = [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStyleDone target:self action:@selector(leftBtnClick)];
+    self.navigationItem.leftBarButtonItem = leftBtn;
+    
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.tableView.frame = self.view.bounds;
     
     [self.view addSubview:self.tableView];
+}
+
+- (void)leftBtnClick
+{
+    self.searchC.active = NO;
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark - UITableViewDateSource
@@ -120,8 +129,14 @@
 
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
 {
-    return self.array;
+    if (self.searchC.active) {
+        return nil;
+    } else {
+        return self.array;
+    }
 }
+
+#pragma mark - UISearchResultsUpdating
 
 -(void)updateSearchResultsForSearchController:(UISearchController *)searchController {
     

@@ -32,6 +32,7 @@
 {
     ZHYAddCityViewController *vc = [[ZHYAddCityViewController alloc] init];
     vc.delegate = self;
+    
     [self.navigationController pushViewController:vc animated:YES];
 }
 

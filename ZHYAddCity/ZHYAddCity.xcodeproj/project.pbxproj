@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB2D0A0E1BFC9C1200D8250F /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB2D0A091BFC9C1200D8250F /* citydict.plist */; };
+		FB2D0A0F1BFC9C1200D8250F /* ZHYAddCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D0A0B1BFC9C1200D8250F /* ZHYAddCityViewController.m */; };
+		FB2D0A101BFC9C1200D8250F /* ZHYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D0A0D1BFC9C1200D8250F /* ZHYViewController.m */; };
 		FBAAEC7E1BFB5ED500DB97D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAEC7D1BFB5ED500DB97D8 /* main.m */; };
 		FBAAEC811BFB5ED500DB97D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAEC801BFB5ED500DB97D8 /* AppDelegate.m */; };
-		FBAAEC841BFB5ED500DB97D8 /* ZHYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAEC831BFB5ED500DB97D8 /* ZHYViewController.m */; };
 		FBAAEC871BFB5ED500DB97D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAAEC851BFB5ED500DB97D8 /* Main.storyboard */; };
 		FBAAEC891BFB5ED500DB97D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAAEC881BFB5ED500DB97D8 /* Assets.xcassets */; };
 		FBAAEC8C1BFB5ED500DB97D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAAEC8A1BFB5ED500DB97D8 /* LaunchScreen.storyboard */; };
 		FBAAEC971BFB5ED500DB97D8 /* ZHYAddCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAEC961BFB5ED500DB97D8 /* ZHYAddCityTests.m */; };
 		FBAAECA21BFB5ED500DB97D8 /* ZHYAddCityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAECA11BFB5ED500DB97D8 /* ZHYAddCityUITests.m */; };
-		FBAAECB11BFB70A700DB97D8 /* ZHYAddCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAECB01BFB70A700DB97D8 /* ZHYAddCityViewController.m */; };
-		FBAAECB31BFB734400DB97D8 /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBAAECB21BFB734400DB97D8 /* citydict.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB2D0A091BFC9C1200D8250F /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
+		FB2D0A0A1BFC9C1200D8250F /* ZHYAddCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYAddCityViewController.h; sourceTree = "<group>"; };
+		FB2D0A0B1BFC9C1200D8250F /* ZHYAddCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYAddCityViewController.m; sourceTree = "<group>"; };
+		FB2D0A0C1BFC9C1200D8250F /* ZHYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYViewController.h; sourceTree = "<group>"; };
+		FB2D0A0D1BFC9C1200D8250F /* ZHYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYViewController.m; sourceTree = "<group>"; };
 		FBAAEC791BFB5ED500DB97D8 /* ZHYAddCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYAddCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAAEC7D1BFB5ED500DB97D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBAAEC7F1BFB5ED500DB97D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FBAAEC801BFB5ED500DB97D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FBAAEC821BFB5ED500DB97D8 /* ZHYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHYViewController.h; sourceTree = "<group>"; };
-		FBAAEC831BFB5ED500DB97D8 /* ZHYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHYViewController.m; sourceTree = "<group>"; };
 		FBAAEC861BFB5ED500DB97D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBAAEC881BFB5ED500DB97D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBAAEC8B1BFB5ED500DB97D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,9 +56,6 @@
 		FBAAEC9D1BFB5ED500DB97D8 /* ZHYAddCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHYAddCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAAECA11BFB5ED500DB97D8 /* ZHYAddCityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHYAddCityUITests.m; sourceTree = "<group>"; };
 		FBAAECA31BFB5ED500DB97D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBAAECAF1BFB70A700DB97D8 /* ZHYAddCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYAddCityViewController.h; sourceTree = "<group>"; };
-		FBAAECB01BFB70A700DB97D8 /* ZHYAddCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYAddCityViewController.m; sourceTree = "<group>"; };
-		FBAAECB21BFB734400DB97D8 /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,16 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB2D09FA1BFC6BE300D8250F /* addCity */ = {
+		FB2D0A081BFC9C1200D8250F /* addCitry */ = {
 			isa = PBXGroup;
 			children = (
-				FBAAECB21BFB734400DB97D8 /* citydict.plist */,
-				FBAAEC821BFB5ED500DB97D8 /* ZHYViewController.h */,
-				FBAAEC831BFB5ED500DB97D8 /* ZHYViewController.m */,
-				FBAAECAF1BFB70A700DB97D8 /* ZHYAddCityViewController.h */,
-				FBAAECB01BFB70A700DB97D8 /* ZHYAddCityViewController.m */,
+				FB2D0A091BFC9C1200D8250F /* citydict.plist */,
+				FB2D0A0C1BFC9C1200D8250F /* ZHYViewController.h */,
+				FB2D0A0D1BFC9C1200D8250F /* ZHYViewController.m */,
+				FB2D0A0A1BFC9C1200D8250F /* ZHYAddCityViewController.h */,
+				FB2D0A0B1BFC9C1200D8250F /* ZHYAddCityViewController.m */,
 			);
-			name = addCity;
+			path = addCitry;
 			sourceTree = "<group>";
 		};
 		FBAAEC701BFB5ED500DB97D8 = {
@@ -118,7 +118,7 @@
 		FBAAEC7B1BFB5ED500DB97D8 /* ZHYAddCity */ = {
 			isa = PBXGroup;
 			children = (
-				FB2D09FA1BFC6BE300D8250F /* addCity */,
+				FB2D0A081BFC9C1200D8250F /* addCitry */,
 				FBAAEC7F1BFB5ED500DB97D8 /* AppDelegate.h */,
 				FBAAEC801BFB5ED500DB97D8 /* AppDelegate.m */,
 				FBAAEC7C1BFB5ED500DB97D8 /* Supporting Files */,
@@ -261,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBAAEC8C1BFB5ED500DB97D8 /* LaunchScreen.storyboard in Resources */,
-				FBAAECB31BFB734400DB97D8 /* citydict.plist in Resources */,
+				FB2D0A0E1BFC9C1200D8250F /* citydict.plist in Resources */,
 				FBAAEC891BFB5ED500DB97D8 /* Assets.xcassets in Resources */,
 				FBAAEC871BFB5ED500DB97D8 /* Main.storyboard in Resources */,
 			);
@@ -288,9 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBAAEC841BFB5ED500DB97D8 /* ZHYViewController.m in Sources */,
-				FBAAECB11BFB70A700DB97D8 /* ZHYAddCityViewController.m in Sources */,
+				FB2D0A101BFC9C1200D8250F /* ZHYViewController.m in Sources */,
 				FBAAEC811BFB5ED500DB97D8 /* AppDelegate.m in Sources */,
+				FB2D0A0F1BFC9C1200D8250F /* ZHYAddCityViewController.m in Sources */,
 				FBAAEC7E1BFB5ED500DB97D8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
